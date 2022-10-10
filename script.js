@@ -3,6 +3,7 @@ const addtodisplay = (myval)=>{
     let display = document.getElementById("display");
     if(myval=='AC'){
         display.value="";
+        bracketflag=0;
     }
     else if(myval == 'Del'){
         display.value = display.value.slice(0, -1);
