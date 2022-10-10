@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(134, 130, 130);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.company{
+    color: rgb(75, 64, 64);
+    display: flex;
+    align-items: right;
+  
+}
+.calculator{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(25, 31, 43);
+    padding:10px;
+    border-radius: 10px;
+}
+#display{
+    background-color:  green;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    width:300px;
+    height:100px;
+    color:rgb(28, 40, 51);
+    font-size: 45px;
+    text-align:right;
+    padding:10px;
+}
+.allbutton{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height: 100%;
+}
+.mycol{
+    display: flex;
+    flex-direction: column;
+}
+.mybtn1{
+    background-color: rgb(15, 223, 223);
+    border-radius: 30%;
+    border:none;
+    margin:5px;
+    color:whitesmoke;
+    font-size: 25px;
+    padding:10px;
+    width:70px;
+    height:70px;
+}
+.mybtn2{
+    background-color: rgb(67, 81, 81);
+    border-radius: 30%;
+    border:none;
+    margin:5px;
+    color:whitesmoke;
+    font-size: 25px;
+    padding:10px;
+    width:70px;
+    height:70px;
+}
+.mybtn3{
+    background-color: rgb(14, 135, 233);
+    border-radius: 30%;
+    border:none;
+    margin:5px;
+    color:whitesmoke;
+    font-size: 25px;
+    padding:10px;
+    width:70px;
+    height:70px;
+}
